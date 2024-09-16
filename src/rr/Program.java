@@ -2,8 +2,10 @@ package rr;
 
 public class Program {
 
-	public static void main(String[] args) {
-		System.out.println("Hello World");
+	public static void main(String[] args)
+	{
+		String msg = MessageGenerator.getMessage();
+		System.out.println(msg);
 
 	}
 
